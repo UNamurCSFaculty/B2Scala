@@ -1,0 +1,5 @@
+run-main r2bach.rb_program.RB_modelling
+run-main r2bach.rb_program.RB_modelling;
+runMain r2bach.rb_program.RB_modelling
+quit
+halt
