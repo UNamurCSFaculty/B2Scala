@@ -24,7 +24,7 @@ https://staff.info.unamur.be/douardi/B2Scala/videos
 The source code is available from this github repository.
 
 
-##Package with the program inside
+## Package with the program inside
 
 An sbt project containing the code and a program example is contained
 in the source code directory under the subdirectory
@@ -50,7 +50,7 @@ the behavior described in the joined article.
 Further tests can be made by modifying this file at the will.
 
 
-##Example package with B2Scala as a library
+## Example package with B2Scala as a library
 
 A simple Scala project that uses B2Scala as a library is included in
 the subdirectory b2scala_as_a_library_ex_of_use. The tool is the
