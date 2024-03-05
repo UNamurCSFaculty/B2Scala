@@ -8,12 +8,13 @@ Domain Specific Language, internal to Scala, that allows to experiment
 programs developed in Bach while benefiting from the Scala eco-system,
 in particular from its type system as well as program fragments
 developed in Scala. Moreover, an Hennessy-Milner like logic is used to
-to restrict the executions of programs to those meeting these logic
+to restrict the executions of programs to those meeting logic
 formulae. The tool is illustrated on the Needham-Schroeder security
 protocol, for which we manage to rediscover the man-in-the-middle
 attack first put in evidence by G. Lowe.
 
-More information on the B2Scala tool and its underlying process algebra can be found at the webpage
+More information on the B2Scala tool and its underlying process
+algebra can be found at the webpage
 
 https://staff.info.unamur.be/mbarkall/B2Scala/documentation
 
@@ -26,7 +27,7 @@ The source code is available from this github repository.
 
 ## Package with the program inside
 
-An sbt project containing the code and a program example is contained
+A sbt project with the B2Scala code and a program example is contained
 in the source code directory under the subdirectory
 b2scala_with_NS_program.  In its ``src/main/scala`` directory, it
 contains various subdirectories for the B2Scala tool but also a
@@ -35,11 +36,11 @@ directory ``bsc_program``, which contains the
 executed with the tool. This file contains the code for the
 Needham-Schroeder protocol described in the joined article. Other
 programs may be introduced in other files in this directory. Please
-make sure that you rename the ``BSC_modelling`` object and declare in
-your new program a similar object.
+make sure that you rename the ``BSC_modelling`` object and declare
+such an object in your new program.
 
-Concretely, please save this subdirectory on your computer, enter it 
-execute in sequence
+Concretely, save this subdirectory on your computer, enter it 
+and execute in sequence
 
 - ``sbt compile``
 - ``sbt run``
@@ -47,17 +48,17 @@ execute in sequence
 The code in the ``needham_schroeder.scala`` file should execute and deliver
 the behavior described in the joined article.
 
-Further tests can be made by modifying this file at the will.
+Further tests can be made by modifying this file at will.
 
 
 ## Example package with B2Scala as a library
 
 A simple Scala project that uses B2Scala as a library is included in
-the subdirectory b2scala_as_a_library_ex_of_use. The tool is the
+the subdirectory b2scala_as_a_library_ex_of_use. The tool is in the
 ``lib`` folder as a jar file. The program is this time in the
 directory ``src/main/scala/my_program``.
 
-Concretely, please save this subdirectory on your computer, enter it
+Concretely, save this subdirectory on your computer, enter it
 and execute in sequence
 
 - ``sbt compile``
@@ -65,19 +66,21 @@ and execute in sequence
 
 The code in the ``needham_schroeder.scala`` file should execute and deliver
 the behavior described in the article. Again, further tests can be made by
-modifying this file at the will.
+modifying this file at will.
 
 
 ## Requirements
 
 Running the sbt projects requires to have installed scala and its tool
-sbt. We have used 2.12 and sbt version 1.3. However the code does not
-use very specific features and should run on later versions.
+sbt. We have used scala version 2.12 and sbt version 1.3. However the
+code does not use very specific features and should run on later
+versions.
 
 
 ## Article
 
-A companion article to the tool is included in the repository.
+A companion article *the_b2scala_tool.pf* describing the tool is
+included in this repository.
 
 
 ## Docker container
