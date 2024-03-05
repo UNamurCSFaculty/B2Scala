@@ -5,29 +5,29 @@
 The B2Scala tool is an incarnation in Scala of a Linda-like language,
 called Bach, developed at the University of Namur. It consists of a
 Domain Specific Language, internal to Scala, that allows to experiment
-programs developed in Bach while benefiting from the Scala eco-system,
+with programs developed in Bach while benefiting from the Scala ecosystem,
 in particular from its type system as well as program fragments
-developed in Scala. Moreover, an Hennessy-Milner like logic is used to
+developed in Scala. Moreover, a Hennessy-Milner like logic is used
 to restrict the executions of programs to those meeting logic
 formulae. The tool is illustrated on the Needham-Schroeder security
 protocol, for which we manage to rediscover the man-in-the-middle
 attack first put in evidence by G. Lowe.
 
 More information on the B2Scala tool and its underlying process
-algebra can be found at the webpage
+algebra can be found at this webpage
 
 https://staff.info.unamur.be/mbarkall/B2Scala/documentation
 
-Videos explaining the use of the tool are available at the webpage
+Videos explaining the use of the tool are available at this webpage
 
 https://staff.info.unamur.be/douardi/B2Scala/videos
 
 The source code is available from this github repository.
 
 
-## Package with the program inside
+## Package containing the program
 
-A sbt project with the B2Scala code and a program example is contained
+An sbt project with the B2Scala code and a program example is contained
 in the source code directory under the subdirectory
 b2scala_with_NS_program.  In its ``src/main/scala`` directory, it
 contains various subdirectories for the B2Scala tool but also a
