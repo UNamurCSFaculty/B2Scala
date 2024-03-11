@@ -20,9 +20,14 @@ https://staff.info.unamur.be/mbarkall/B2Scala/documentation
 
 Videos explaining the use of the tool are available at this webpage
 
-https://staff.info.unamur.be/douardi/B2Scala/videos
+https://staff.info.unamur.be/jmj/B2Scala/videos
 
 The source code is available from this github repository.
+
+Moreover, a docker container (together with instructions to use it) is
+available under the following webpage
+
+https://staff.info.unamur.be/jmj/Coordination2024/Artefact
 
 
 ## Package containing the program
