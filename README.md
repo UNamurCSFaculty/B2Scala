@@ -13,21 +13,18 @@ formulae. The tool is illustrated on the Needham-Schroeder security
 protocol, for which we manage to rediscover the man-in-the-middle
 attack first put in evidence by G. Lowe.
 
-More information on the B2Scala tool and its underlying process
-algebra can be found at this webpage
+More information on the B2Scala tool can be found
+in the companion paper [the_b2scala_tool.pdf](https://github.com/UNamurCSFaculty/B2Scala/blob/main/the_b2scala_tool.pdf). 
 
-https://staff.info.unamur.be/mbarkall/B2Scala/documentation
+A video explaining the use of the tool is available on YouTube at the
+following address:
 
-Videos explaining the use of the tool are available at this webpage
-
-https://staff.info.unamur.be/jmj/B2Scala/videos
+[https://youtu.be/G6b9rQLEXiM](https://youtu.be/G6b9rQLEXiM)
 
 The source code is available from this github repository.
 
-Moreover, a docker container (together with instructions to use it) is
-available under the following webpage
-
-https://staff.info.unamur.be/jmj/Coordination2024/Artefact
+Moreover, a docker container (together with instructions to use it) is also
+available from this github
 
 
 ## Package containing the program
@@ -45,15 +42,16 @@ make sure that you rename the ``BSC_modelling`` object and declare
 such an object in your new program.
 
 Concretely, save this subdirectory on your computer, enter it 
-and execute in sequence
+at the level of the ``build.sbt`` file and execute in sequence
 
 - ``sbt compile``
 - ``sbt run``
 
 The code in the ``needham_schroeder.scala`` file should execute and deliver
-the behavior described in the joined article.
+the behavior described in the article [the_b2scala_tool.pdf](https://github.com/UNamurCSFaculty/B2Scala/blob/main/the_b2scala_tool.pdf).
 
-Further tests can be made by modifying this file at will.
+Further tests can be made by modifying this file at will. A tutorial
+on how to do that is given below.
 
 
 ## Example package with B2Scala as a library
@@ -64,7 +62,7 @@ the subdirectory b2scala_as_a_library_ex_of_use. The tool is in the
 directory ``src/main/scala/my_program``.
 
 Concretely, save this subdirectory on your computer, enter it
-and execute in sequence
+at the level of the ``build.sbt`` file and execute in sequence
 
 - ``sbt compile``
 - ``sbt run``
@@ -77,20 +75,27 @@ modifying this file at will.
 ## Requirements
 
 Running the sbt projects requires to have installed scala and its tool
-sbt. We have used scala version 2.12 and sbt version 1.3. However the
-code does not use very specific features and should run on later
-versions.
+sbt. We have used scala version 2.12, sbt version 1.3 and java
+version 1.8. However the code does not use very specific features and
+should run on later versions. To that end, the versions should be
+changed in the ``build.sbt`` file and ``build.properties`` file located
+in the subdirectory ``project``.
 
 
-## Article
+## Tutorial
 
 A companion article *the_b2scala_tool.pf* describing the tool is
-included in this repository.
+included in this repository. Moreover the interested reader can find
+the modelling of a restaurant application in the tutorial
+sub-directory in this repository. It includes a *tutorial.pdf* file
+explaining how to code and deploy the code together with a scala file
+``altar.scala`` containing the code.
 
 
 ## Docker container
 
-To be provided
+A docker container can be found in the ``DockerContainer`` of this
+repository.
 
 ## Contact
 
