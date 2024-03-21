@@ -13,8 +13,8 @@ formulae. The tool is illustrated on the Needham-Schroeder security
 protocol, for which we manage to rediscover the man-in-the-middle
 attack first put in evidence by G. Lowe.
 
-More information on the B2Scala tool can be found
-in the companion paper [the_b2scala_tool.pdf](https://github.com/UNamurCSFaculty/B2Scala/blob/main/the_b2scala_tool.pdf). 
+More information on the B2Scala tool can be found in the companion
+paper ``the_b2scala_tool.pdf``, available on this repository.
 
 A video explaining the use of the tool is available on YouTube at the
 following address:
@@ -48,7 +48,7 @@ at the level of the ``build.sbt`` file and execute in sequence
 - ``sbt run``
 
 The code in the ``needham_schroeder.scala`` file should execute and deliver
-the behavior described in the article [the_b2scala_tool.pdf](https://github.com/UNamurCSFaculty/B2Scala/blob/main/the_b2scala_tool.pdf).
+the behavior described in the article contained in ``the_b2scala_tool.pdf``.
 
 Further tests can be made by modifying this file at will. A tutorial
 on how to do that is given below.
@@ -74,28 +74,28 @@ modifying this file at will.
 
 ## Requirements
 
-Running the sbt projects requires to have installed scala and its tool
-sbt. We have used scala version 2.12, sbt version 1.3 and java
+Running the sbt projects requires to have installed Scala and its tool
+sbt. We have used Scala version 2.12, sbt version 1.3 and Java
 version 1.8. However the code does not use very specific features and
-should run on later versions. To that end, the versions should be
+should run on later versions. To that end, note that the versions should be
 changed in the ``build.sbt`` file and ``build.properties`` file located
 in the subdirectory ``project``.
 
 
 ## Tutorial
 
-A companion article *the_b2scala_tool.pf* describing the tool is
+A companion article ``the_b2scala_tool.pdf`` describing the tool is
 included in this repository. Moreover the interested reader can find
 the modelling of a restaurant application in the tutorial
-sub-directory in this repository. It includes a *tutorial.pdf* file
+sub-directory in this repository. It includes a ``tutorial.pdf`` file
 explaining how to code and deploy the code together with a scala file
 ``altar.scala`` containing the code.
 
 
 ## Docker container
 
-A docker container can be found in the ``DockerContainer`` of this
-repository.
+A docker container can be found in the ``DockerContainer``
+subdirectory of this repository.
 
 ## Contact
 
