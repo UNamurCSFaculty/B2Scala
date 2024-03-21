@@ -78,8 +78,7 @@ Running the sbt projects requires to have installed Scala and its tool
 sbt. We have used Scala version 2.12, sbt version 1.3 and Java
 version 1.8. However the code does not use very specific features and
 should run on later versions. To that end, note that the versions should be
-changed in the ``build.sbt`` file and ``build.properties`` file located
-in the subdirectory ``project``.
+changed in the ``build.sbt`` file and the ``build.properties`` file (this latter file being located in the subdirectory ``project``).
 
 
 ## Tutorial
