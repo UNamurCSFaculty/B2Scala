@@ -1,6 +1,6 @@
 # B2Scala
 
-## Welcome to the **B2Scala** repository.
+## Welcome to the **B2Scala** repository
 
 In this repository, you will find:
 
