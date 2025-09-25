@@ -1,4 +1,4 @@
-# The Timed_B2Scala tool
+# The Timed B2Scala tool
 
 ## Description
 
