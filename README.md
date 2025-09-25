@@ -1,4 +1,4 @@
-# B2Scala
+# B2Scala Tool
 
 ## Welcome to the **B2Scala** repository
 
