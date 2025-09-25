@@ -2,7 +2,27 @@
 
 ## Description
 
-The Timed B2Scala tool is an embedding in Scala of a timed variant of a Linda-like language, called Bach, developed at the University of Namur. It consists of a Domain Specific Language, internal to Scala, that allows experimenting with Bach programs while benefiting from the Scala ecosystem, in particular its type system and Scala program fragments. Moreover, a logic is used to restrict the executions of programs to those satisfying specific conditions. The tool is illustrated on two security protocols: the Needham-Schroeder protocol, where we automatically rediscover the man-in-the-middle attack, and the Hancke-Kuhn distance-bounding protocol, showcasing the handling of timed primitives and constrained executions.
+**Timed B2Scala** is an internal Domain Specific Language embedded in Scala that extends the original B2Scala tool. It implements a **timed variant of the Linda-like language Bach**, developed at the University of Namur.
+
+The tool allows experimenting with Bach programs while leveraging Scala’s type system and programming abstractions. Programs remain Scala-friendly but support Bach control-flow operators:
+
+- **Sequential composition**  
+- **Parallel composition**  
+- **Non-deterministic choice**  
+- **Timed primitives**  
+
+Timed B2Scala introduces a **logic to constrain executions**, enabling users to focus only on program runs that satisfy specific conditions. This feature allows the automatic rediscovery of attacks on protocols.
+
+## Illustrated Protocols
+
+- **Needham-Schroeder protocol** – modeling Alice, Bob, and Mallory  
+- **Hancke-Kuhn protocol** – modeling the Verifier, Prover, and attackers  
+
+## Advantages
+
+- Tokens, si-terms, and local variables are typed and verified at compile time  
+- Combines Bach abstractions with Scala’s ecosystem  
+- Facilitates experimentation with timed protocols and asynchronous communication via a shared space
 
 
 ## Contact
