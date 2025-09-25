@@ -2,7 +2,7 @@
 
 ## Welcome to the **B2Scala** repository
 
-In this repository, you will find:
+In this repository, you will find: 
 
 - The **B2Scala tool**, presented during the **ICE 2024** workshop, located in the folder: [ICE24_B2Scala_Tool](./ICE24_B2Scala_Tool)
 
