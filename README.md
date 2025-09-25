@@ -6,7 +6,7 @@ In this repository, you will find:
 
 - The **B2Scala tool**, presented during the **ICE 2024** workshop, located in the folder: [ICE24_B2Scala_Tool](./ICE24_B2Scala_Tool)
 
-- In the [Timed_B2Scala](./Timed_B2Scala) folder, the extension of *B2Scala tool*.
+- The [Timed_B2Scala](./Timed_B2Scala) tool, a companion tool for the extended version of the ICE'24 paper, submitted to the **JLAMP** journal.
 
 ## Contact
 
