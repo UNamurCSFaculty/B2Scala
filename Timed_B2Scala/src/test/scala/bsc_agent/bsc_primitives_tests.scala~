@@ -1,0 +1,10 @@
+package bscala.bsc_agent
+  
+import org.scalatest.funsuite.AnyFunSuite
+
+class MathUtilsTests extends AnyFunSuite {
+
+
+
+
+}

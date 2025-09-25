@@ -1,0 +1,16 @@
+package bscala
+
+import bsc_data._
+import bsc_agent._
+import bsc_runner._
+import bsc_settings._
+import bsc_formula._
+
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
+
+class BasciOperations extends AnyFlatSpec with Matchers {
+
+
+
+}

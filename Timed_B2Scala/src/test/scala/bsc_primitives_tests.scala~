@@ -1,0 +1,52 @@
+/* ----------------------------------------------------- */
+/*                                                       */
+/*                GENERAL PATTERN FOR TESTS              */
+/*                                                       */
+/* see https://www.scalatest.org/user_guide/             */
+/*                              writing_your_first_test  */
+/*                                                       */
+/* ----------------------------------------------------- */
+
+/*
+
+package bscala.bsc_agent
+
+import org.scalatest.flatspec.AnyFlatSpec
+
+class FirstSpec extends AnyFlatSpec {
+  // tests go here...
+}
+
+*/
+
+
+// or
+// import org.scalatest.funsuite.AnyFunSuite
+// class MathUtilsTests extends AnyFunSuite { }
+
+
+package bscala.bsc_agent
+import bscala.bsc_data._
+import bscala.bsc_agent._
+
+import org.scalatest.funsuite.AnyFunSuite
+
+class primitiveTest extends AnyFunSuite {
+
+  test("correct implementation of fbsc_toString for tell") {
+
+    val myc = Token("c")
+    val myTelltAgent = Tellt(c,10)
+    val result = myTelltAgent.fbsc_string
+    val expected = "tellt(c,10)"
+
+    assert(result == expected)
+    
+  }
+
+}
+
+
+
+
+
